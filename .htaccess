@@ -1,0 +1,9 @@
+Options -indexes
+RewriteEngine On
+RewriteBase /PHP_FirmaScript/
+RewriteRule ^homepage.html index.php
+RewriteRule ^(.*).html index.php?page=$1
+ErrorDocument 404 http://localhost/FirmaScript/404.html
+RewriteRule ^404.html http://localhost/FirmaScript/index.php?page=404
+
+

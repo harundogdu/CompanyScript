@@ -1,0 +1,10 @@
+Options -indexes
+RewriteEngine On
+RewriteBase /PHP_FirmaScript/admin/
+RewriteRule ^homepage.html index.php
+RewriteRule ^(.*).html index.php?page=$1 [L,QSA]
+RewriteRule ^page/(.*)/(.*) index.php?page=$1&secim=$2 [L,QSA]
+RewriteRule ^operation/(.*)/(.*) index.php?page=$1&id=$2 [L,QSA]
+
+
+

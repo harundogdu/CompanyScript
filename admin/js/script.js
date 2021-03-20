@@ -1,0 +1,10 @@
+﻿CKEDITOR.replace( 'settings_desc' );
+CKEDITOR.replace( 'settings_desc_team' );
+CKEDITOR.replace( 'settings_info_contact' );
+CKEDITOR.replace( 'settings_map_contact' );
+CKEDITOR.replace( 'mini_about_desc' );
+CKEDITOR.replace( 'mini_services_desc' );
+CKEDITOR.replace( 'slider_desc' );
+CKEDITOR.replace( 'mini_offer_desc' );
+CKEDITOR.replace( 'mini_comments_desc' );
+CKEDITOR.replace( 'mini_work_desc' );
